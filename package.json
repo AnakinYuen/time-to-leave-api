@@ -1,0 +1,22 @@
+{
+  "name": "time-to-leave-api",
+  "version": "0.0.1",
+  "description": "AWS Lambda API to manipulate MongoDB Atlas for time-to-leave",
+  "main": "handler.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnakinYuen/time-to-leave-api.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Serverless",
+    "AWS",
+    "AWS Lambda",
+    "MongoDB",
+    "MongoDB Atlas"
+  ],
+  "author": "Anakin Yuen",
+  "license": "MIT"
+}
