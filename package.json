@@ -2,7 +2,7 @@
   "name": "time-to-leave-api",
   "version": "0.0.1",
   "description": "AWS Lambda API to manipulate MongoDB Atlas for time-to-leave",
-  "main": "handler.js",
+  "main": "handler.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/AnakinYuen/time-to-leave-api.git"
@@ -18,5 +18,15 @@
     "MongoDB Atlas"
   ],
   "author": "Anakin Yuen",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.59",
+    "@typescript-eslint/eslint-plugin": "^3.6.0",
+    "@typescript-eslint/parser": "^3.6.0",
+    "eslint": "^7.4.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.6"
+  }
 }

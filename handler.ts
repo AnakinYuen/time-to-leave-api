@@ -1,6 +1,6 @@
-'use strict';
+import { APIGatewayProxyEvent, APIGatewayProxyResult, Handler } from 'aws-lambda';
 
-module.exports.hello = async event => {
+export const hello: Handler<APIGatewayProxyEvent, APIGatewayProxyResult> = async (event) => {
   return {
     statusCode: 200,
     body: JSON.stringify(
@@ -9,7 +9,7 @@ module.exports.hello = async event => {
         input: event,
       },
       null,
-      2
+      2,
     ),
   };
 
