@@ -16,5 +16,10 @@ provider:
     DB: ${self:custom.secrets.db}
 
 functions:
-  hello:
-    handler: handler.hello
+  get:
+    handler: handler.get
+    events:
+      - http:
+          path: get
+          method: get
+          cors: true
