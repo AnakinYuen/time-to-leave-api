@@ -39,3 +39,15 @@ functions:
           path: login
           method: post
           cors: true
+
+  verify-token:
+    handler: handler.verify
+
+  update:
+    handler: handler.update
+    events:
+      - http:
+          path: update
+          method: post
+          cors: true
+          authorizer: verify-token
