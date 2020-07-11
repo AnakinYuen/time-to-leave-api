@@ -7,3 +7,6 @@ jspm_packages
 
 # Environment variables
 secrets.json
+
+# Build results
+.build
