@@ -23,3 +23,11 @@ functions:
           path: get
           method: get
           cors: true
+
+  register:
+    handler: handler.register
+    events:
+      - http:
+          path: register
+          method: post
+          cors: true
