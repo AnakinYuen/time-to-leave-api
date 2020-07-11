@@ -31,3 +31,11 @@ functions:
           path: register
           method: post
           cors: true
+
+  login:
+    handler: handler.login
+    events:
+      - http:
+          path: login
+          method: post
+          cors: true
